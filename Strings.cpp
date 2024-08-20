@@ -9,9 +9,8 @@ int main()
 	std::cout << x << "\n";
 	std::cout << x.length() << "\n";
 	
-	std::string tmp = x;
-	std::cout << tmp[0] << "\n";
-	std::cout << tmp[13];
+	std::cout << x.front() << "\n";
+	std::cout << x.back();
 	std::getline(std::cin, x);
 		
 	
